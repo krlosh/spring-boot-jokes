@@ -1,6 +1,8 @@
-package guru.springframework.springbootjokes;
+package guru.springframework.springbootjokes.services;
 
 import guru.springframework.norris.chuck.ChuckNorrisQuotes;
+import guru.springframework.springbootjokes.services.JokeService;
+import guru.springframework.springbootjokes.services.JokeServiceImpl;
 import org.junit.Before;
 import org.junit.Test;
 

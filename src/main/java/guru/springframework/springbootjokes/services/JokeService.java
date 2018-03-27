@@ -1,4 +1,4 @@
-package guru.springframework.springbootjokes;
+package guru.springframework.springbootjokes.services;
 
 public interface JokeService {
     String getJoke();
