@@ -1,4 +1,4 @@
-package guru.springframework.springbootjokes.services;
+package guru.springframework.springbootjokes.repository;
 
 import guru.springframework.norris.chuck.ChuckNorrisQuotes;
 import org.springframework.stereotype.Component;
@@ -9,8 +9,8 @@ public class ChuckNorrisJokesRepositoryImpl implements JokesRepository{
 
     private final ChuckNorrisQuotes chuckNorrisQuotes;
 
-    public ChuckNorrisJokesRepositoryImpl() {
-        chuckNorrisQuotes = new ChuckNorrisQuotes();
+    public ChuckNorrisJokesRepositoryImpl(ChuckNorrisQuotes chuckNorrisQuotes) {
+        this.chuckNorrisQuotes = chuckNorrisQuotes;
     }
 
     @Override

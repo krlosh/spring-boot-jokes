@@ -1,4 +1,4 @@
-package guru.springframework.springbootjokes.services;
+package guru.springframework.springbootjokes.repository;
 
 public interface JokesRepository {
     public String nexJoke();

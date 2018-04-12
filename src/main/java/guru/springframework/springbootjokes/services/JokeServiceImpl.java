@@ -1,5 +1,6 @@
 package guru.springframework.springbootjokes.services;
 
+import guru.springframework.springbootjokes.repository.JokesRepository;
 import org.springframework.stereotype.Service;
 
 @Service
